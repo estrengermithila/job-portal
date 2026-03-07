@@ -24,7 +24,8 @@ const Navbar = () => {
       {links}
     </ul>
   </div>
-  <div className="navbar-end">
+  <div className="navbar-end gap-4">
+    <Link to='/register'><btn className=" btn btn-warning">Register</btn></Link>
     <Link to='/login'><btn>Login</btn></Link>
   </div>
 </div>
